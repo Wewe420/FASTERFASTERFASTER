@@ -1,40 +1,128 @@
 [
-	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		//"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		//"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		//"neutralYes": ["Very good.","Of course, yes.","That is very good."],
-
-		"hateHello": "What do you want now?",
-		//"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		//"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		//"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		//"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
-		"denounced": "The accusations of primitive lifeforms are beneath us.",
-		"declaringfriendship": "Let us become like friends!",
-
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+{
+  "name": "Avante Garde France",
+  "leaderName": "Le Patron",
+  "style": "European",
+  "preferredVictoryType": "Cultural",
+  "innerColor": [30, 30, 30],
+  "outerColor": [190, 35, 45],
+  "uniques": [
+    "Culture cost of adopting new Policies reduced by 10%",
+    "Great Writers are earned 25% faster"
+  ],
+  "cities": [
+    "Paris", "Lyon", "Marseille", "Bordeaux", "Toulouse",
+    "Nice", "Nantes", "Lille", "Avignon", "Grenoble"
+  ],
+  "startIntroPart1": "The old order has collapsed. A new France rises under Le Patron.",
+  "startIntroPart2": "Art, innovation and national renewal will define this new republic."
+},
+{
+  "name": "The Acephale",
+  "leaderName": "Georges Bataille",
+  "style": "European",
+  "preferredVictoryType": "Cultural",
+  "innerColor": [20, 20, 20],
+  "outerColor": [120, 15, 25],
+  "uniques": [
+    "Earn [1] Culture for every [2] population in each city",
+    "Great Artists are earned 20% faster"
+  ],
+  "cities": [
+    "Paris", "Reims", "Dijon", "Clermont", "Rouen",
+    "Tours", "Orleans", "Chartres", "Amiens", "Bourges"
+  ],
+  "startIntroPart1": "The Acephale has emerged as a new political and cultural order.",
+  "startIntroPart2": "Its society is built around artistic experimentation, philosophy and collective identity."
+},
+{
+  "name": "French Rätterepublik",
+  "leaderName": "Marcel D'eat",
+  "style": "European",
+  "preferredVictoryType": "Scientific",
+  "innerColor": [40, 40, 40],
+  "outerColor": [180, 150, 65],
+  "uniques": [
+    "Workers build improvements 20% faster",
+    "Earn [1] Production in every city for every [5] population"
+  ],
+  "cities": [
+    "Paris", "Lyon", "Strasbourg", "Metz", "Nancy",
+    "Mulhouse", "Roubaix", "Saint-Etienne", "Le Havre", "Calais"
+  ],
+  "startIntroPart1": "The French Rätterepublik has established a new industrial government.",
+  "startIntroPart2": "Its leaders seek to reorganize the economy and modernize the state."
+},
+{
+  "name": "French Commune",
+  "leaderName": "Andre Breton",
+  "style": "European",
+  "preferredVictoryType": "Cultural",
+  "innerColor": [190, 25, 35],
+  "outerColor": [245, 205, 70],
+  "uniques": [
+    "Cities connected to the capital produce [1] Culture",
+    "Earn [1] Culture from every [2] population in the capital"
+  ],
+  "cities": [
+    "Paris", "Marseille", "Lyon", "Toulouse", "Bordeaux",
+    "Nantes", "Grenoble", "Lille", "Rouen", "Montpellier"
+  ],
+  "startIntroPart1": "The French Commune has taken power.",
+  "startIntroPart2": "A new society emerges, built around communal organization and artistic experimentation."
+},
+{
+  "name": "French Network Association",
+  "leaderName": "Jean Genet",
+  "style": "European",
+  "preferredVictoryType": "Diplomatic",
+  "innerColor": [35, 35, 35],
+  "outerColor": [90, 110, 145],
+  "uniques": [
+    "Trade routes provide 25% more Gold",
+    "Gain [1] Gold from every [2] population in cities connected to the capital"
+  ],
+  "cities": [
+    "Paris", "Lyon", "Marseille", "Nice", "Toulon",
+    "Bordeaux", "Nantes", "Rouen", "Calais", "Montpellier"
+  ],
+  "startIntroPart1": "The French Network Association has established its authority.",
+  "startIntroPart2": "Networks of trade, culture and diplomacy connect its territories."
+},
+{
+  "name": "French Fascist Union",
+  "leaderName": "Pierre Drieu la Rochelle",
+  "style": "European",
+  "preferredVictoryType": "Domination",
+  "innerColor": [35, 35, 35],
+  "outerColor": [100, 105, 110],
+  "uniques": [
+    "Military Units receive [10]% less damage from cities",
+    "Military Units cost 10% less Production"
+  ],
+  "cities": [
+    "Paris", "Lyon", "Marseille", "Lille", "Reims",
+    "Dijon", "Nancy", "Bordeaux", "Rouen", "Toulouse"
+  ],
+  "startIntroPart1": "A new authoritarian government has taken control of France.",
+  "startIntroPart2": "The French Fascist Union seeks to consolidate its territory and establish a centralized state."
+},
+{
+  "name": "Union Française",
+  "leaderName": "Rene Binet",
+  "style": "European",
+  "preferredVictoryType": "Domination",
+  "innerColor": [35, 45, 65],
+  "outerColor": [210, 175, 65],
+  "uniques": [
+    "Military Units receive [15]% more experience from combat",
+    "Earn [1] Production from every [2] population in the capital"
+  ],
+  "cities": [
+    "Paris", "Lyon", "Marseille", "Bordeaux", "Toulouse",
+    "Nantes", "Lille", "Strasbourg", "Rouen", "Nice"
+  ],
+  "startIntroPart1": "The Union Française has emerged as a new French state.",
+  "startIntroPart2": "Its government seeks national consolidation, military organization and territorial expansion."
+}
 ]
